@@ -1,0 +1,180 @@
+body {
+  background-color: white;
+}
+
+.wrapper {
+  width: 40%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.card {
+  height: 170px;
+  width: 220px;
+  background-color: #cfb4b4;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center !important;
+  position: absolute;
+  z-index: 3;
+}
+
+.image {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgreen;
+  height: 100px;
+  width: 70px;
+}
+
+.card:hover .image img {
+  width: 80%;
+}
+
+.about-product {
+  position: absolute;
+  color: #fff;
+  bottom: -50px !important;
+  text-align: center;
+  left: 20%;
+  transition: 2s ease-in;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.container:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-20%, -20%);
+  -ms-transform: translate(-20%, -20%);
+  transform: translate(-20%, -20%);
+  text-align: center;
+}
+
+button.showMe {
+  background-color: transparent;
+  border: transparent;
+  color: white;
+  width: 305px;
+  background-color: darkgrey;
+  width: 77px;
+  border: solid rgb(182, 185, 188) 0.02px;
+  border-radius: 28%;
+  outline: solid black 1px;
+  background-image: linear-gradient(
+    rgb(37, 37, 57) 10%,
+    rgb(69, 78, 105) 55%,
+    rgb(43, 43, 45) 97%,
+    rgb(25, 25, 28) 99%
+  );
+}
+
+button.showMe:hover {
+  background-color: transparent;
+  border: transparent;
+  color: white;
+  width: 305px;
+  background-color: darkgrey;
+  width: 77px;
+  border: transparent;
+  border-radius: 28%;
+  outline: transparent;
+  background-image: linear-gradient(
+    rgb(37, 37, 57) 10%,
+    rgb(69, 78, 105) 55%,
+    rgb(43, 43, 45) 97%,
+    rgb(25, 25, 28) 99%
+  );
+}
+
+.make-model {
+  position: absolute;
+  z-index: 3;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 11px;
+  margin-top: 25px;
+  /* padding-bottom: 2px; */
+  width: 288px;
+} 
+
+.ul-show {
+  margin-bottom: 13px;
+  flex-wrap: wrap;
+}
+li.li-show {
+  margin-bottom: 13px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.list-cars {
+  width: 100%;
+  background-color: rgb(28, 26, 26);
+  margin-top: 5%;
+  padding-top: 3%;
+}
+
+/* new */
+div.card-center {
+  width: 300px;
+  background-image: url("../../Images/blackdrop.png");
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+  height: 300px;
+  padding-left: 0;
+  transition: transform 4s;
+}
+img.car-pic {
+  transition: transform 0.5s ease;
+  width: 300px;
+}
+img.car-pic:hover {
+  transform: scale(1.5);
+}
+
+@media only screen and (max-width: 800px) {
+
+
+
+
+ul.ul-show{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top:5%;
+  margin-right:8%;
+}
+li.li-show{
+  align-self: center;
+}
+.list-cars{
+  margin-top: 8%;
+}
+
+}
+

@@ -1,0 +1,64 @@
+
+.wrap-edit {
+  background-image: url("../../Images/business.jpeg");
+  background-size: cover;
+  background-position: center;
+  /* height: 10%; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom:15%;
+  ;
+}
+.edit-form {
+  width: 400px;
+  margin-top: 39px;
+
+  /* margin-left: 40%; */
+  background-color: wheat;
+  padding-bottom:60px;
+  padding-left: 60px;
+  padding-right: 60px;
+
+
+}
+
+.car-edit-form-a{
+}
+input {
+  text-align: center;
+
+  width: 30%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .wrap-edit{
+    height: 100%;
+    padding-top:30%;
+ 
+  }
+
+  div.edit-form {
+    width: 400px;
+    margin-top: 9px;
+  
+    /* margin-left: 40%; */
+    background-color: wheat;
+    padding-bottom:20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 100%;
+  
+  
+  }
+
+.car-edit-form-a{
+ height: 100%;
+ padding-top:10px;
+ padding-bottom:10px;
+}
+
+}
+

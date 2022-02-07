@@ -1,0 +1,83 @@
+.main-resources{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 10%;
+    margin-right:10% ;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 2px solid green;
+    flex-wrap: wrap;
+ 
+}
+
+
+.left-resources{
+width: 499px;
+height: 614px;
+border: 2px black solid;
+
+
+}
+.fam{
+    height: 366px;
+    width:100%;  
+}
+input{
+    width: 50%;
+    margin-left: 15%;
+}
+/* .nys{
+
+} */
+.right-resources{
+    width: 344px;
+   
+    height: 614px;
+    
+    }
+    /* .nys,.owd{
+        padding:4;
+    }   */
+    /* .fam,.famTwo{
+        height:43% ;
+        width: 100%;
+    } */
+    .left-title,.right-title{
+        color: rgb(38, 6, 101);
+        text-align: center;
+    }
+
+    .nys{
+        padding-left:13px;
+    }
+    .ul-locations{
+        width: 100%;
+        margin-top: 11px;
+    }
+    .locales{
+        width: 60%;
+        margin-left: 22%;
+        margin-bottom:  22%;
+        /* border:green solid 4px; */
+        /* margin-left: 18%;
+        margin-right:18% ; */
+    }
+/* 
+    th,td{
+margin: 11%;
+    }
+    tr{
+        width: 99%;
+    } */
+    .li-cover{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+   .li-cover:nth-child(odd){
+       background-color: rgb(235, 229, 232);
+   }
+   .main{
+       margin-bottom: 77px;
+       height: 7777px;
+   }

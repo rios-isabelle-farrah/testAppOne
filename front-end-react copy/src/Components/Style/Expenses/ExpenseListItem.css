@@ -1,0 +1,19 @@
+.row-penses td {
+  font-size: 120%;
+  text-align: left;
+  padding: 1%;
+}
+.edit-button {
+  border-radius: 20%;
+}
+.edit-button:hover {
+  background-color: yellow;
+}
+
+@media only screen and (max-width: 800px) {
+  .row-penses td {
+    font-size: 70%;
+    text-align: left;
+    padding: 1%;
+  }
+}

@@ -1,0 +1,90 @@
+.trips-index-pages{
+  background-image: url("../../Images/business.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top:10px;
+  height: 1200px;
+}
+
+
+.trips-table-parent {
+  margin-top: 100px;
+}
+
+.trips-main-table {
+  width: 50%;
+  margin: auto;
+  table-layout: fixed;
+}
+
+.head-row {
+  background-color: grey;
+  height: 5%;
+}
+
+.head-row th {
+  font-weight: 200;
+  font-size: 100%;
+  text-align: left;
+  padding: 1%;
+}
+
+.trips-new-button {
+  margin: 2%;
+}
+
+.head-miles {
+  width: 8%;
+}
+.head-reason {
+  width: 20%;
+}
+.head-edit {
+  width: 20%;
+}
+
+.head-biz-use {
+  width: 10%;
+}
+
+.head-date {
+  width: 10%;
+}
+
+.head-fav {
+  width: 10%;
+}
+
+@media screen and (max-width: 800px) {
+  .trips-table-parent {
+    margin-top: 10%;
+    padding-top: 10%;
+  }
+  .trips-main-table {
+    width: 90%;
+    margin-top: 5%;
+    table-layout: fixed;
+  }
+  .head-reason {
+    width: 20%;
+  }
+  .head-miles {
+    width: 10%;
+  }
+  .head-edit {
+    width: 10%;
+  }
+  .head-date {
+    width: 5%;
+  }
+  .head-biz-use {
+    width: 15%;
+  }
+
+  .head-row {
+    font-size: 8px;
+    text-align: left;
+    padding: 1%;
+  }
+}

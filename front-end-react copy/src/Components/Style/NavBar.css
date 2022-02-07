@@ -1,0 +1,82 @@
+.main {
+  padding: 0px 10px;
+}
+
+div.gas-input {
+  background-color: yellow;
+  width: 900px;
+  color: black;
+}
+
+input.gas-here {
+  color: black;
+}
+.allNav {
+  width: 50%;
+}
+
+.nav-expenses > div > .expense-p {
+  color: rgb(51, 51, 51);
+}
+.nav-mileage > div > .mileage-p {
+  color: rgb(51, 51, 51);
+}
+div.nav-mileage > div > .miles {
+  color: limegreen;
+}
+div.nav-expenses > div > div {
+  color: limegreen;
+}
+div.nav-expenses > div,
+div.nav-mileage > div,
+div.enter-mileage > div,
+div.enter-expenses > div {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  background-color: rgb(247, 247, 247);
+
+  margin-bottom: 10px;
+  margin-left: 5%;
+  flex-direction: row;
+
+  padding-left: 2%;
+  padding-right: 2%;
+  align-items: center;
+  border: grey solid 2px;
+}
+
+.home-wheels {
+  background-image: url("../Images/wheel.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  box-shadow: transparent;
+  outline: transparent;
+  border: transparent;
+}
+
+.button-logout {
+  width: 30%;
+  margin-left: 18px;
+}
+div.cars-div {
+  padding-top: 9%;
+  padding-left: 20%;
+}
+
+div.nav-expenses > a {
+  color: limegreen;
+}
+.nav-expenses > p {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+.nav-expenses > a:link {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,8 @@
+.trips-show-pages{
+        background-image: url("../../Images/business.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top:60px;
+    height: 1200px;
+}

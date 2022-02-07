@@ -1,0 +1,103 @@
+.left-nav {
+  height: 70%;
+  width: 20%;
+  margin: auto;
+  z-index: 11;
+  border: solid rgb(221, 221, 221) 0.5px;
+  align-items: center;
+  background-color: black;
+  padding-top: 10px;
+}
+.left-nav-mb{
+  visibility: hidden;
+}
+.hamb{
+  margin-top: 2%;
+  visibility: hidden;
+}
+
+/* .left-nav-mb{
+  visibility: hidden;
+} */
+
+.left-nav a > h2 {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-family: "AvenirNext-Regular-Mint", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  display: block;
+  color: #333;
+  font-size: 14px;
+  text-decoration-line: none;
+}
+
+.left-nav a:hover {
+  color: blue;
+  text-decoration-line: none;
+}
+.left-nav a {
+  text-decoration-line: none;
+}
+
+.chrome {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmZfP9x5lnYgRR8RY6vAHDJ4atvhIQHOdiZxgelIeUtmtShMBQyAant0w70WR-2lOQgOo&usqp=CAU");
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding-top: 20px;
+  margin-bottom: 16px;
+  justify-self: center;
+  justify-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  /* .mobile-left-nav {
+    width: 100%;
+    visibility: hidden;
+  } */
+  /* .mobile-left-nav-click {
+    width: 100%;
+    visibility: visible;
+  } */
+  .hamb{
+    visibility: visible;
+    margin-top:20%;
+  }
+  .left-nav{
+    visibility: hidden;
+    display: none;
+    width:50%;
+
+  }
+  .left-nav-mb{
+    visibility: visible;
+    margin-top:2%;
+  }
+
+
+
+
+  .chrome {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmZfP9x5lnYgRR8RY6vAHDJ4atvhIQHOdiZxgelIeUtmtShMBQyAant0w70WR-2lOQgOo&usqp=CAU");
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding-top: 20px;
+    margin-bottom: 16px;
+    /* justify-self: center;
+    justify-items: center;
+    justify-content: center; */
+    align-self: center;
+    height: 60px;
+  }
+
+}
+

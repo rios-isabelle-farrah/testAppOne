@@ -1,0 +1,71 @@
+.main-e-div {
+  margin-top: 2%;
+  padding-top: 4%;
+  padding-bottom: 34%;
+  background-image: url("../../Images/business.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 900px;
+}
+.expenses-main-table {
+  width: 50%;
+  margin: auto;
+  table-layout: fixed;
+}
+.head-row {
+  background-color: grey;
+}
+
+.head-row th {
+  font-weight: 400;
+  font-size: 150%;
+  text-align: left;
+  padding: 2%;
+}
+
+.expense-new-button {
+  margin: 2%;
+}
+
+.head-type {
+  width: 25%;
+}
+.head-amount {
+  width: 15%;
+}
+.head-edit {
+  width: 10%;
+}
+
+.expenses-col {
+  width: 20%;
+}
+
+.head-date {
+  width: 15%;
+}
+
+@media screen and (max-width: 800px) {
+  .main-e-div {
+    margin-top: 10%;
+    padding-top: 10%;
+  }
+  .expenses-main-table {
+    width: 90%;
+    margin: auto;
+    table-layout: fixed;
+  }
+  .head-type {
+    width: 25%;
+  }
+  .head-amount {
+    width: 15%;
+  }
+  .head-edit {
+    width: 15%;
+  }
+  .head-date {
+    width: 22%;
+  }
+}

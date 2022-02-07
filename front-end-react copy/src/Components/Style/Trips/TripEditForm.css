@@ -1,0 +1,36 @@
+.edit-form-container{
+  background-image:url("../../Images/business.jpeg");
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 30%;
+
+}
+.edit-form-trips {
+  width: 30%;
+  margin-top: 129px;
+  padding:20px;
+
+  /* margin-left: 40%; */
+  background-color: lightblue;
+
+}
+
+
+.edit-trip-buttons{
+
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 600px) {
+
+.edit-form-trips{
+
+  width: 400px;
+}
+
+
+}

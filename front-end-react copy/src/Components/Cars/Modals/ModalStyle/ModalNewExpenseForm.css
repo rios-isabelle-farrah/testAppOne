@@ -1,0 +1,153 @@
+.form-expense-modal {
+width: 500px;
+}
+.expense-table-one{
+    width: 100%;
+    border:black solid 5px;
+}
+
+form h2 {
+  margin: 2%;
+}
+
+td:nth-child(2) {
+  text-align: left;
+}
+select {
+  width: 80%;
+  height: 25px;
+  text-align: center;
+}
+td {
+  width: 40%;
+  text-align: left;
+}
+td label {
+  padding: 2% 0% 0% 4%;
+  font-size: 120%;
+}
+td input {
+  text-align: center;
+  width: 80%;
+}
+div.expense-buttons > button.sub {
+  background-image: url("../../../Images/subup.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+  box-shadow: transparent;
+  outline: transparent;
+  border: transparent;
+}
+
+div.expense-buttons > button.sub:hover {
+  background-image: url("../../../Images/subdown.png");
+}
+
+.button-can {
+  background-image: url("../../../Images/canup.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+  box-shadow: transparent;
+  outline: transparent;
+  border: transparent;
+}
+
+.button-can:hover {
+  background-image: url("../../../Images/candown.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+  box-shadow: transparent;
+  outline: transparent;
+  border: transparent;
+}
+
+.form-e-section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.main-left-div {
+  width: 80%;
+  height: 100%;
+  background: rgba(127, 119, 119, 0.6);
+  position: fixed;
+  z-index: 10;
+  padding-top: 6%;
+  padding-left: 10%;
+  
+}
+div.expense-buttons{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-container {
+    margin-top: 15%;
+
+
+  }
+
+  .left-nav {
+    position: sticky;
+    z-index: -1;
+    padding-left: 0;
+    /* margin-left: 200px; */
+    visibility: hidden;
+
+
+  }
+
+  
+  .main-left-div {
+      width: 100%;
+      height: 1100px;
+      background: rgba(127, 119, 119, 0.6);
+      z-index: 12;
+      padding-top: 6%;
+      width: 100%;
+    }
+    
+    .exp-new-table {
+      table-layout: fixed;
+      width: 100%;
+      border: none;
+      margin: auto;
+    }
+    .hamb {
+    margin-top: 20%;
+  }
+
+  form.form-expense-modal {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 20;
+  }
+
+  .expense-table-one {
+border:black solid 5px;
+width: 100%;
+   
+  }
+
+
+  div.expense-buttons{
+      width: 100%;
+  }
+
+
+}
+

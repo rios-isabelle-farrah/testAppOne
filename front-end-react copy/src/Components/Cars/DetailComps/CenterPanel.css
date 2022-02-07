@@ -1,0 +1,166 @@
+.concar-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 500px;
+  margin: auto;
+  flex-direction: column;
+}
+
+.concar {
+  width: 90%;
+  height: 50%;
+  transform: rotateY(10deg);
+  animation: rotateAnimation 5s cubic-bezier(0.1, 0.7, 1, 0.1);
+  animation-direction: normal;
+  animation-delay: 0.3s;
+  animation-timing-function: ease-out;
+  align-self: center;
+  z-index: -2;
+}
+
+div.all-bs {
+  display: flex;
+  justify-content: space-between;
+  z-index:1;
+}
+
+/* Delete & Edit Common */
+button.b-delete,
+button.b-edit {
+  font-size: 12px;
+}
+
+button.b-edit:hover {
+  color: white;
+}
+button.b-delete:hover {
+  color: white;
+}
+
+/* Delete Buttons */
+button.button-delete {
+  background-image: url("../../Images/delbutton.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+  outline: transparent;
+  border: transparent;
+  margin-right: 80px;
+}
+button.button-delete:hover {
+  background-image: url("../../Images/pressD.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+  outline: transparent;
+  border: transparent;
+}
+
+/* Edit Buttons */
+button.button-edit {
+  background-image: url("../../Images/Edit.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+  outline: transparent;
+  border: transparent;
+  margin-left: 80px;
+}
+button.button-edit:hover {
+  background-image: url("../../Images/pressE.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+  outline: transparent;
+  border: transparent;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+ 
+  .concar-div{
+    height: 60%;
+    width: 60%;
+    margin-top:10%;
+  }
+  div.all-bs {
+    display: flex;
+    justify-content: space-around;
+    /* z-index: 1; */
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+  button.button-delete {
+    background-image: url("../../Images/delbutton.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    outline: transparent;
+    border: transparent;
+    margin-right: 80px;
+  }
+  button.button-delete:hover {
+    background-image: url("../../Images/pressD.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    outline: transparent;
+    border: transparent;
+  }
+  
+  /* Edit Buttons */
+  button.button-edit {
+    background-image: url("../../Images/Edit.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    outline: transparent;
+    border: transparent;
+    margin-left: 80px;
+  }
+  button.button-edit:hover {
+    background-image: url("../../Images/pressE.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    outline: transparent;
+    border: transparent;
+  }
+  
+
+
+
+
+
+
+
+}
+
+
+/* .modal-a{
+  border: red 2px solid;
+  width: 100%;
+
+} */

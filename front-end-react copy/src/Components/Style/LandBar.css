@@ -1,0 +1,36 @@
+.logo {
+  height: 80px;
+  width: 80px;
+}
+
+div.container-fluid {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.a-link {
+  margin-top: 30%;
+}
+
+.card-mb3 {
+  width: 80%;
+  height: 80%;
+}
+
+.first-section {
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  background-image: url("https://www.nationalbusinessmirror.com/wp-content/uploads/2020/04/highways-construction.jpg");
+  background-size: cover;
+}
+.mid-box {
+  background-color: white;
+  width: 50%;
+}
+.b {
+  color: black;
+}
+.g {
+  color: green;
+}

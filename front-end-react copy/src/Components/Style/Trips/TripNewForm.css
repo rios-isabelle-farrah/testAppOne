@@ -1,0 +1,116 @@
+.data-td > input {
+  background-color: white;
+}
+.form-trip {
+  margin-top: 12%;
+
+  background-color: wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  /* padding: 8px; */
+}
+
+.trips-show-table {
+
+  /* background-image: url("https://media.istockphoto.com/photos/toy-car-magnifying-glass-calculator-pen-and-notebook-picture-id591850812?k=20&m=591850812&s=612x612&w=0&h=1rf5FMS5qrFMWa85gQ3n_8SAc1Zkymruq001Alw9kZs="); */
+  background-image: url("../../Images/form_background.jpeg");
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  height: 800px;
+  padding-top: 4%;
+  width: 100%;
+}
+.trip-table-one {
+  width: 100%;
+
+  width: 90%;
+}
+
+.trip-table-one > tr > td > label {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+.trip-table-one > tr > td > input {
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: dimgray;
+  margin-left: 5px;
+}
+form.form-trip > h2 {
+  font-size: 22px;
+  font-weight: lighter;
+}
+.form-trip > div.trip-buttons > button {
+  background-image: url("../../Images/subup.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+  box-shadow: transparent;
+  outline: transparent;
+  border: transparent;
+}
+/* Submit Button */
+.form-trip > div.trip-buttons > button:hover {
+  background-image: url("../../Images/subdown.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+  box-shadow: transparent;
+  outline: transparent;
+  border: transparent;
+}
+/* Cancel Button */
+button.button-can {
+  background-image: url("../../Images/canup.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+  box-shadow: transparent;
+  outline: transparent;
+  border: transparent;
+}
+
+div.trip-buttons > button.button-can:hover {
+  background-image: url("../../Images/candown.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+  box-shadow: transparent;
+  outline: transparent;
+  border: transparent;
+}
+
+.trip-buttons {
+  display: flex;
+
+  width: 100%;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+  .form-trip{
+    width: 80%;
+  }
+
+}
+  
