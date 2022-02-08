@@ -11,7 +11,7 @@ const ExpenseListItem = ({ expense }) => {
     <tr className="row-penses">
       <td>{newDate.toLocaleDateString()}</td>
       <td>{expense_type}</td>
-      <td>${amount_spent.toLocaleString()}</td>
+      <td>{amount_spent.toLocaleString()}</td>
       <td>
         <Link to={`/cars/${car_id}/expenses/${id}`}>
           <button className="edit-button">More</button>

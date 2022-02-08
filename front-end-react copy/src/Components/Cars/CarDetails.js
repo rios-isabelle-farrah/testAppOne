@@ -14,7 +14,7 @@ import pdfMake from "pdfmake/build/pdfmake";
 import pdfFonts from "pdfmake/build/vfs_fonts";
 import LeftNav from "./DetailComps/LeftNav";
 import CenterPanel from "./DetailComps/CenterPanel";
-import RightPanel from "./DetailComps/RightPanel";
+// import RightPanel from "./DetailComps/RightPanel";
 pdfMake.vfs = pdfFonts.pdfMake.vfs;
 
 function CarDetails() {
@@ -166,13 +166,13 @@ console.log(totalBusinessExpenses,"tbe")
               fontSize: 40,
             },
           },
-          {
-            text: `Total expenses: $${totalBusinessExpenses.toLocaleString()}`,
-            alignment: "left",
-            bold: true,
-            fontSize: 15,
-            margin: [307, 20, 10, 0],
-          },
+          // {
+          //   text: `Total notes Written: ${totalBusinessExpenses.toLocaleString()}`,
+          //   alignment: "left",
+          //   bold: true,
+          //   fontSize: 15,
+          //   margin: [307, 20, 10, 0],
+          // },
           {
             pageBreak: "before",
             text: `${car?.make} ${car?.model} miles for business-use\n for the year 2021 `,
@@ -211,13 +211,13 @@ console.log(documentDefinition,"docDef")
         <LeftNav id={id} handleReport={handleReport}/>
 
         <CenterPanel car={car} id={id} handleDelete={handleDelete} />
-
+{/* 
         <RightPanel
           id={id}
           car={car}
           expensesArr={expensesArr}
           tripsArr={tripsArr}
-        />
+        /> */}
       </section>
     );
   }

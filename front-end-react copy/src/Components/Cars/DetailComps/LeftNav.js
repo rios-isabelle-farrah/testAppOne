@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import ModalNewExpenseForm from "../Modals/ModalNewExpenseForm";
 import ModalNewTripForm from "../Modals/ModalNewTripForm";
 import "./LeftNav.css";
+import cabinet from "../../Images/cabinet1.png"
 
 const LeftNav = ({ id, handleReport }) => {
   const [showEForm, setShowEForm] = useState(false);
@@ -10,13 +11,13 @@ const LeftNav = ({ id, handleReport }) => {
   const [showTripForm, setShowTripForm] = useState(false);
   return (
     <>
-      <img
+      {/* <img
         src="https://uxwing.com/wp-content/themes/uxwing/download/07-web-app-development/hamburger-menu.png"
         style={{ height: "40px", width: "40px" }}
         className="hamb"
         onClick={() => setShowComp(!showComp)}
         alt="menu"
-      />
+      /> */}
 
       <div className="left-nav">
         {showEForm && (
@@ -58,17 +59,17 @@ const LeftNav = ({ id, handleReport }) => {
           </div>
         </div>
 
-        <div className="chrome">
+        {/* <div className="chrome">
           <div className="nav-expenses">
             <Link to={`/cars/${id}/expenses`}>📕 Expense Table</Link>
           </div>
-        </div>
+        </div> */}
 
-        <div className="chrome">
+        {/* <div className="chrome">
           <div className="nav-expenses">
             <Link to={`/cars/${id}/trips`}>📘 Mileage Table</Link>
           </div>
-        </div>
+        </div> */}
       </div>
       {showComp && (
         <div>
@@ -115,17 +116,17 @@ const LeftNav = ({ id, handleReport }) => {
               </div>
             </div>
 
-            <div className="chrome">
+            {/* <div className="chrome">
               <div className="nav-expenses">
                 <Link to={`/cars/${id}/expenses`}>📕 Expense Table</Link>
               </div>
-            </div>
+            </div> */}
 
-            <div className="chrome">
+            {/* <div className="chrome">
               <div className="nav-expenses">
                 <Link to={`/cars/${id}/trips`}>📘 Mileage Table</Link>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       )}

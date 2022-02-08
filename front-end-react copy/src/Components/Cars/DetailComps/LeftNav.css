@@ -1,12 +1,18 @@
 .left-nav {
-  height: 70%;
-  width: 20%;
+  display: grid;
+  grid-template-columns: auto ;
+  height: 540px;
+  width: 25%;
   margin: auto;
   z-index: 11;
   border: solid rgb(221, 221, 221) 0.5px;
   align-items: center;
-  background-color: black;
-  padding-top: 10px;
+  background-image: url("../../Images/cabinet1.png");
+ margin-top: 50px;
+  background-position: cover;
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-size: 90%;
 }
 .left-nav-mb{
   visibility: hidden;
@@ -40,64 +46,110 @@
 }
 
 .chrome {
-  background-image: url("../../Images/cabinet.png");
-  width: 100%;
-  display: flex;
+width:44px;
+height:100px;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  align-content: center;
-  padding-top: 20px;
-  margin-bottom: 16px;
-  justify-self: center;
-  justify-items: center;
+  align-content: center; */
+  /* padding-top: 90px;
+  margin-bottom: 16px; */
+
+  /* justify-items: center;
+  justify-content: center; */
+  grid-column-start: 1;
+  grid-column-end: 1;
+  height: 30px;
+  /* margin-bottom: 166px; */
+}
+
+
+
+.nav-expenses {
+  display: flex;
   justify-content: center;
-  height: 60px;
-}
-
-
-
-@media only screen and (max-width: 600px) {
-  /* .mobile-left-nav {
-    width: 100%;
-    visibility: hidden;
-  } */
-  /* .mobile-left-nav-click {
-    width: 100%;
-    visibility: visible;
-  } */
-  .hamb{
-    visibility: visible;
-    margin-top:20%;
-  }
-  .left-nav{
-    visibility: hidden;
-    display: none;
-    width:50%;
-
-  }
-  .left-nav-mb{
-    visibility: visible;
-    margin-top:2%;
-  }
-
-
-
-
-  .chrome {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmZfP9x5lnYgRR8RY6vAHDJ4atvhIQHOdiZxgelIeUtmtShMBQyAant0w70WR-2lOQgOo&usqp=CAU");
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    padding-top: 20px;
-    margin-bottom: 16px;
-    /* justify-self: center;
-    justify-items: center;
-    justify-content: center; */
-    align-self: center;
-    height: 60px;
-  }
+  color: white;
+  width: 200px;
+  /* height: 78px; */
+  /* padding: 6px; */
+  /* align-items: center; */
+  /* background-image: linear-gradient(
+    rgb(42, 39, 39) 2%,
+    rgb(29, 29, 43) 10%,
+    rgb(36, 42, 64) 55%,
+    rgb(6, 6, 13) 97%,
+    rgb(62, 62, 69) 99%
+  ); */
+  background-image: url("../../Images/label1.png");
+  outline: solid rgb(139, 125, 125) 1.5px;
+  /* border-radius: 25px; */
+  border-left: rgb(45, 62, 72) 0.1px solid;
+  border-right: rgb(40, 49, 55) 2px solid;
+  background-position: center;
+  /* margin-bottom: 20px; */
+  
 
 }
 
+.nav-expenses:hover {
+  height: 55px;
+  width: 200px;
+  /* background-image: linear-gradient(
+    rgb(37, 37, 57) 10%,
+    rgb(24, 26, 32) 55%,
+    rgb(8, 8, 9) 97%,
+    rgb(36, 36, 55) 99%
+  ); */
+
+  /* outline: transparent;
+  border-radius: 25px;
+  border-left: transparent;
+  border-right: transparent; */
+
+  cursor: pointer;
+}
+
+div.nav-expenses > a {
+  color: white;
+}
+.nav-expenses > p {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+.nav-expenses > a:link {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+.nav-expenses > a:active {
+  font-size: 12px;
+  padding: 0;
+  color: lime;
+  margin: 0;
+}
+
+div.nav-expenses > p.total {
+  font-family: "Orbitron", sans-serif;
+  color: black;
+}
+
+div.nav-expenses > button {
+  color: black;
+}
+.nav-expenses > p {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  color:black
+}
+.nav-expenses > button {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+button.b-delete {
+  background-image: url("../../Images/delbutton.png");
+}

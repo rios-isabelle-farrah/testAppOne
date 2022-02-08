@@ -13,7 +13,7 @@ const ModalNewExpenseForm = ({ setShowEForm, showEForm }) => {
   const [expense, setExpense] = useState({
     expense_type: "",
     business_use: false,
-    amount_spent: 0,
+    amount_spent: "",
     date: new Date(),
   });
 
@@ -82,22 +82,22 @@ const ModalNewExpenseForm = ({ setShowEForm, showEForm }) => {
             </tr>
             <tr>
               <td className="data-td">
-                <label> Expense type:</label>
+                <label> Meeting type:</label>
               </td>
               <td className="data-td">
                 <select onChange={handleSelectChange}>
                   <option value="" defaultValue></option>
                   <option name="gas" value="Gas">
-                    Gas
+                   IEP
                   </option>
                   <option name="repairs" value="Repairs">
-                    Repairs
+                  Telephone Call
                   </option>
                   <option name="car_insurance" value="Car Insurance">
-                    Car Insurance
+               Email
                   </option>
                   <option name="oil_change" value="Oil Change">
-                    Oil Change
+               turning 5
                   </option>
                   <option name="registration_fees" value="Registration Fees">
                     Registration Fees
@@ -116,9 +116,9 @@ const ModalNewExpenseForm = ({ setShowEForm, showEForm }) => {
                 <label htmlFor="amount_spent">Amount:</label>
               </td>
               <td className="data-td">
-                <input
+                <textarea
                   id="amount_spent"
-                  type="number"
+                  type="text"
                   value={amount_spent}
                   min="1"
                   onChange={handleChange}
