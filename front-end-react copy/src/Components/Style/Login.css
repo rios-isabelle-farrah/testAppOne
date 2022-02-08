@@ -172,7 +172,7 @@ padding-top:5px;
 .pic{
   width: 50%;
   /* border:rgb(13, 237, 188) solid 4px; */
-  background-image: url("../Images/MJ.gif");
+background-color: grey;
   background-position:center;
   height: 100%;
   /* opacity:.7; */

@@ -11,7 +11,7 @@ import { SiTwitter } from "react-icons/si";
 import { FaInstagramSquare } from "react-icons/fa";
 import { GrFacebook } from "react-icons/gr";
 
-// import TripLogo from "./Images/hands.png";
+ import env from "./Images/env.gif";
 import green from "./Images/greenLend.png";
 import dsLogo from "./Images/logods.jpg";
 import flyer from "./Images/flyer.png";
@@ -343,7 +343,7 @@ const Login = () => {
       <div className="login-body">
       <section className="grabber">
         <div className="left-MJ">
-          {/* <img className="giffy" src={giffy} alt={psg} /> */}
+          <img className="giffy" src={env} alt={psg} />
           <div className="giffy"></div>
           <img className="psgz" src="https://cdn.givecloud.co/s/files/1/0000/0613/files/diverse-adults-virtual-meeting-istock-1254704747.jpg" alt={psg} />
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../Components/Style/Cars/CarsListItem.css";
-
+import filer from "../Images/file.png"
 function CarsListItem({ carsArr }) {
   let showElement = false;
 
@@ -24,7 +24,8 @@ function CarsListItem({ carsArr }) {
                 <br></br>
                 <br></br>
                 <br></br>{" "}
-                <img
+                <img className="car-pic" src={filer}></img>
+                {/* <img
                   className="car-pic"
                   src={
                     car.model.toLowerCase().includes("camry")
@@ -46,7 +47,7 @@ function CarsListItem({ carsArr }) {
                                     : "https://i.pinimg.com/originals/91/06/02/910602979bda92b9f88144d313f52725.png" //i8 default
                   }
                   alt={"car"}
-                />{" "}
+                />{" "} */}
                 <div className="make-model">
                   {car?.make} {car?.model}
                   <Link to={`/cars/${car?.id}`}>
