@@ -24,7 +24,7 @@ CREATE TABLE
         expense_type TEXT NOT NULL,
         business_use BOOLEAN NOT NULL,
         car_id INT REFERENCES cars (id) ON DELETE CASCADE,
-        amount_spent INT NOT NULL,
+        amount_spent TEXT NOT NULL,
         date TEXT 
     );
 
